@@ -48,7 +48,7 @@ export const NavigationItems: NavigationItem[] = [
         type: 'item',
         classes: 'nav-item',
         url: '/ingresos',
-        icon: 'font-size',
+        icon: 'gold',
         breadcrumbs: true
       }
     ]
