@@ -37,6 +37,23 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
   {
+    id: 'budget',
+    title: 'Presupuesto',
+    type: 'group',
+    icon: 'icon-navigation',
+    children: [
+      {
+        id: 'incomes',
+        title: 'Ingresos',
+        type: 'item',
+        classes: 'nav-item',
+        url: '/ingresos',
+        icon: 'font-size',
+        breadcrumbs: true
+      }
+    ]
+  },
+  {
     id: 'authentication',
     title: 'Authentication',
     type: 'group',
