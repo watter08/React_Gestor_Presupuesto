@@ -21,6 +21,10 @@ const routes: Routes = [
         loadComponent: () => import('./demo/dashboard/default/default.component').then((c) => c.DefaultComponent)
       },
       {
+        path: 'tipos/ingresos',
+        loadComponent: () => import('./features/dropdowns/pages/type-of-incomes/type-of-incomes').then((c) => c.TypeOfIncomes)
+      },
+      {
         path: 'ingresos',
         loadComponent: () => import('./features/incomes/incomes').then((c) => c.Incomes)
       },

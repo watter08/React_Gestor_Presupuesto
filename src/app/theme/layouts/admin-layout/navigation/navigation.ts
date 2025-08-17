@@ -38,6 +38,23 @@ export const NavigationItems: NavigationItem[] = [
   },
   {
     id: 'budget',
+    title: 'Menús desplegables',
+    type: 'group',
+    icon: 'holder',
+    children: [
+      {
+        id: 'incomes',
+        title: 'Tipo Ingresos',
+        type: 'item',
+        classes: 'nav-item',
+        url: '/tipos/ingresos',
+        icon: 'bank',
+        breadcrumbs: true
+      }
+    ]
+  },
+  {
+    id: 'budget',
     title: 'Presupuesto',
     type: 'group',
     icon: 'icon-navigation',
