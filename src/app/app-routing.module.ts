@@ -21,6 +21,10 @@ const routes: Routes = [
         loadComponent: () => import('./demo/dashboard/default/default.component').then((c) => c.DefaultComponent)
       },
       {
+        path: 'ingresos',
+        loadComponent: () => import('./features/incomes/incomes').then((c) => c.Incomes)
+      },
+      {
         path: 'typography',
         loadComponent: () => import('./demo/component/basic-component/typography/typography.component').then((c) => c.TypographyComponent)
       },
